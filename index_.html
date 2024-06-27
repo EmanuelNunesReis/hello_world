@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!-- META DADOS DA PAGE -->
+        <title>This is my first page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="do que se trata esta page">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Trabalho Final da Disciplina</h1>
+
+        <h2>Questão 1 – modelagem de dados</h2>
+
+        <h3>Considere um sistema de controle de biblioteca. Como requisitos iniciais temos:</h3>
+         <p>1. Devem ser cadastradas as obras do acervo, que representam livros, periódicos (revistas, jornais) e qualquer outro elemento do acervo da biblioteca. Inicialmente, obras devem possuir um código que
+            as identifique: título, autor principal, ano de publicação, situação (disponível, emprestada) e editora.
+            Editoras, que devem ter um código, nome e cidade. Uma obra sempre é de uma editora e uma editora pode possuir diversas obras;</p>  
+        <p>2. Devem ser cadastrados usuários da biblioteca, que devem ter uma identificação única, nome, endereço completo, telefone de contato e CPF;</p> 
+        <p>3. Os funcionários da biblioteca também devem ser cadastrados. Funcionários têm um número de matrícula, seu nome completo e departamento em que trabalha. Departamentos, por sua vez,
+            possuem código e nome. Todo funcionário obrigatoriamente é vinculado a um departamento, que pode ter vários funcionários. Além disso, todo departamento possui um único chefe;</p>    
+        <p>4. Usuários devem poder realizar empréstimo de obras. Um empréstimo deve conter pelo menos uma
+            obra, podendo ter mais, e ser para um único usuário, obrigatoriamente. Empréstimos ainda devem
+            registrar a data e horário do empréstimo, data prevista de retorno, bem como o funcionário que o
+            realizou. Quando da devolução da obra em empréstimo, deve-se registrar a data e horário da
+            devolução, bem como o funcionário responsável;</p>    
+            
+        
+        <h3>1) Modelo Entidade-relacionamento CONCEITUAL (feito no brModelo por exemplo), onde deverá conter somente as ENTIDADES e os RELACIONAMENTOS (figura 1)</h3>
+        <img src="images/Conceitual_MER_Q1.png" />
+
+        <h3>2) Modelo Lógico - Diagrama de Entidade Relacionamento (tabelas): onde deverá conter as mesmas entidades que agora serão TABELAS, os CAMPOS, as CHAVES-PRIMÁRIAS e ESTRANGEIRAS e os RELACIONAMENTOS (figura 2)</h3>
+        <img src="images/Modelo_Logico_Q1.png" />
+
+
+    </body>
+</html>
